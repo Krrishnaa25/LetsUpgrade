@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child {
+    height: 300px;
+    width: 18%;
+    background-color: magenta;
+}
+
+/* media queries */
+
+@media (max-width: 1024px) {
+
+    .child{
+
+        width: 40%;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+  
+
+   .child { 
+
+    
+    width: 80%;
+    margin-bottom: 15px;
+   
+    
+   }
+
+}
