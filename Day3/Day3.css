@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+
+    
+    width: 100%;
+    background-color:rgba(27, 25, 25, 0.4);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  
+}
+
+.container {
+    width: 80%;
+    height: 55px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+
+    width: 10%;
+    height: 45px;
+    justify-content: right;
+    font-size: 35px;
+    font-family: 'Segoe UI'; 
+    font-style: italic;
+    align-items: right;
+    color: white;
+    text-align: right;
+    margin-left: 10px;
+    
+    
+}
+
+.navigation{
+
+    width: 50%;
+  
+
+}
+
+.nav-bar{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+
+    list-style-type: none;
+    width: 25%;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    line-height: 45px;
+    text-align: center;
+    color: white;
+  
+   
+} 
+
+.banner{
+
+    width: 100%;
+    height: 75vh;
+    background-image: url('https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position-y: -325px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.banner-description {
+    
+    width: 35%;
+    height: 200px;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 40px;
+    padding: 20px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.2)
+}
+
+.btn{
+
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;
+    
+  
+}
+
+.btn:hover{
+ 
+    background-color: rgb(212, 212, 212);
+
+}
+
+/* Css for places */ 
+
+.places {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+.places-container{
+
+    width: 90%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+margin-top: -30px;
+margin-bottom: 0px;
+font-size: 40px;
+font-family: 'Segoe UI';
+font-weight: normal;
+
+
+}
+
+.places-parent{
+
+    width: 100%;
+   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+} 
+
+.place{
+
+    width: 23%;
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.place1{
+ 
+   background-image: url('https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+   background-size: cover;
+
+}
+.place2{
+
+    background-image: url('https://images.pexels.com/photos/4388167/pexels-photo-4388167.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: cover;
+
+}
+.place3{
+
+    background-image: url('https://images.pexels.com/photos/2792025/pexels-photo-2792025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+
+}
+.place4{
+
+    background-image: url('https://images.pexels.com/photos/4352246/pexels-photo-4352246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+
+}
+.place5{
+
+    background-image: url('https://images.pexels.com/photos/3224533/pexels-photo-3224533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+
+}
+.place6{
+
+    background-image: url('https://images.pexels.com/photos/1125212/pexels-photo-1125212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+
+}
+.place7{
+
+    background-image: url('https://images.pexels.com/photos/4551849/pexels-photo-4551849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+
+}
+.place8{
+
+    background-image: url('https://images.pexels.com/photos/2246789/pexels-photo-2246789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+.place-desc{
+
+height: 150px;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.4);
+color: white;
+transition: .2s;
+cursor: pointer;
+}
+
+.place-desc:hover{
+
+    height: 400px;
+
+}
+
+.place-title {
+
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.pad{
+
+    padding: 15px;
+ }
+
+ .button{
+
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;
+    
+ }
+
+ .button:hover{
+  
+    
+    background-color: rgb(212, 212, 212);
+
+
+ }
+
+.desc{
+
+margin-top:100px;
+font-family: 'Segoe UI';
+font-size: 20px;
+
+}
+
+/* css for mobile  */
+
+@media (max-width:480px) {
+
+.header{
+
+    background-color: black;
+    position: static;
+}
+
+.container{
+    flex-direction: column;
+    width: 95%;
+
+}
+
+.logo{
+
+    width: 100%;
+    text-align: center;
+}
+
+.navigation{
+    width: 100%;
+    height: auto;
+   
+}
+
+.nav-bar{
+    width: 100%;
+
+   
+}
+
+.nav-link{
+
+    width: 100%;
+    text-align: left;
+    
+    
+
+    
+}
+
+.banner{
+    height: 50vh;
+    background-position-y: 0px;
+}
+.banner-description{
+ 
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 40px;
+    padding: 0 10px;
+    
+}
+
+.place{
+  width: 100%;
+}
+
+}
